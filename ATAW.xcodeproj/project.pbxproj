@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110F6F90EA0E028D8E952004 /* libPods-ATAW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C0FA755DB0A9B6C8B7F4DB /* libPods-ATAW.a */; };
+		5A171CB2216F797600995854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A171CB1216F797600995854 /* AppDelegate.m */; };
+		5A171CB5216F797600995854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A171CB4216F797600995854 /* ViewController.m */; };
+		5A171CB8216F797600995854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A171CB6216F797600995854 /* Main.storyboard */; };
+		5A171CBA216F797800995854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A171CB9216F797800995854 /* Assets.xcassets */; };
+		5A171CBD216F797800995854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A171CBB216F797800995854 /* LaunchScreen.storyboard */; };
+		5A171CC0216F797800995854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A171CBF216F797800995854 /* main.m */; };
+		5A25CBD52182129A003A2D4D /* ATAWPublishHomeworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A25CBD42182129A003A2D4D /* ATAWPublishHomeworkController.m */; };
+		5A25CBD921829171003A2D4D /* SegmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A25CBD821829171003A2D4D /* SegmentItem.m */; };
+		5A25CBE12185997C003A2D4D /* ATAWMyHomeworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A25CBE02185997C003A2D4D /* ATAWMyHomeworkController.m */; };
+		5A25CBEA21859E65003A2D4D /* ATAWPublishHomeworkHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A25CBE921859E65003A2D4D /* ATAWPublishHomeworkHomeController.m */; };
+		5A25CBED2185A451003A2D4D /* ATAWHomeworkLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A25CBEC2185A451003A2D4D /* ATAWHomeworkLibraryController.m */; };
+		5A3E8656217171430062B9C1 /* ATAWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E8654217171430062B9C1 /* ATAWHomeViewController.m */; };
+		5A3E8657217171430062B9C1 /* ATAWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E8655217171430062B9C1 /* ATAWHomeViewController.xib */; };
+		5A4EA753217E9BE500C4401F /* ATAWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EA752217E9BE500C4401F /* ATAWLoginViewController.m */; };
+		5AE45B562188A79C0099A20C /* ATAWNewHomeworkByCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE45B552188A79C0099A20C /* ATAWNewHomeworkByCameraController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A171CAD216F797600995854 /* ATAW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATAW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A171CB0216F797600995854 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A171CB1216F797600995854 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A171CB3216F797600995854 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A171CB4216F797600995854 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A171CB7216F797600995854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A171CB9216F797800995854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A171CBC216F797800995854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A171CBE216F797800995854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A171CBF216F797800995854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A25CBD32182129A003A2D4D /* ATAWPublishHomeworkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAWPublishHomeworkController.h; sourceTree = "<group>"; };
+		5A25CBD42182129A003A2D4D /* ATAWPublishHomeworkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAWPublishHomeworkController.m; sourceTree = "<group>"; };
+		5A25CBD721829171003A2D4D /* SegmentItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentItem.h; sourceTree = "<group>"; };
+		5A25CBD821829171003A2D4D /* SegmentItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentItem.m; sourceTree = "<group>"; };
+		5A25CBDF2185997C003A2D4D /* ATAWMyHomeworkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAWMyHomeworkController.h; sourceTree = "<group>"; };
+		5A25CBE02185997C003A2D4D /* ATAWMyHomeworkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAWMyHomeworkController.m; sourceTree = "<group>"; };
+		5A25CBE821859E65003A2D4D /* ATAWPublishHomeworkHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAWPublishHomeworkHomeController.h; sourceTree = "<group>"; };
+		5A25CBE921859E65003A2D4D /* ATAWPublishHomeworkHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAWPublishHomeworkHomeController.m; sourceTree = "<group>"; };
+		5A25CBEB2185A451003A2D4D /* ATAWHomeworkLibraryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAWHomeworkLibraryController.h; sourceTree = "<group>"; };
+		5A25CBEC2185A451003A2D4D /* ATAWHomeworkLibraryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAWHomeworkLibraryController.m; sourceTree = "<group>"; };
+		5A3E8653217171430062B9C1 /* ATAWHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAWHomeViewController.h; sourceTree = "<group>"; };
+		5A3E8654217171430062B9C1 /* ATAWHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAWHomeViewController.m; sourceTree = "<group>"; };
+		5A3E8655217171430062B9C1 /* ATAWHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATAWHomeViewController.xib; sourceTree = "<group>"; };
+		5A4EA751217E9BE500C4401F /* ATAWLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAWLoginViewController.h; sourceTree = "<group>"; };
+		5A4EA752217E9BE500C4401F /* ATAWLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAWLoginViewController.m; sourceTree = "<group>"; };
+		5AE45B542188A79C0099A20C /* ATAWNewHomeworkByCameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAWNewHomeworkByCameraController.h; sourceTree = "<group>"; };
+		5AE45B552188A79C0099A20C /* ATAWNewHomeworkByCameraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAWNewHomeworkByCameraController.m; sourceTree = "<group>"; };
+		81000F3305B2FC65611A5F6C /* Pods-ATAW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAW.debug.xcconfig"; path = "Target Support Files/Pods-ATAW/Pods-ATAW.debug.xcconfig"; sourceTree = "<group>"; };
+		95C0FA755DB0A9B6C8B7F4DB /* libPods-ATAW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATAW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAE846DE316C3F8560F12E3 /* Pods-ATAW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAW.release.xcconfig"; path = "Target Support Files/Pods-ATAW/Pods-ATAW.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A171CAA216F797600995854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F6F90EA0E028D8E952004 /* libPods-ATAW.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A171CA4216F797600995854 = {
+			isa = PBXGroup;
+			children = (
+				5A171CAF216F797600995854 /* ATAW */,
+				5A171CAE216F797600995854 /* Products */,
+				DEAA2CDFAF479CDBCA286A7D /* Pods */,
+				76C0A00B0A913DE0BF368619 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A171CAE216F797600995854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A171CAD216F797600995854 /* ATAW.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A171CAF216F797600995854 /* ATAW */ = {
+			isa = PBXGroup;
+			children = (
+				5A25CBD6218290F8003A2D4D /* PublishHomework */,
+				5A171CB0216F797600995854 /* AppDelegate.h */,
+				5A171CB1216F797600995854 /* AppDelegate.m */,
+				5A171CB3216F797600995854 /* ViewController.h */,
+				5A171CB4216F797600995854 /* ViewController.m */,
+				5A171CB6216F797600995854 /* Main.storyboard */,
+				5A171CB9216F797800995854 /* Assets.xcassets */,
+				5A171CBB216F797800995854 /* LaunchScreen.storyboard */,
+				5A171CBE216F797800995854 /* Info.plist */,
+				5A171CBF216F797800995854 /* main.m */,
+				5A3E8653217171430062B9C1 /* ATAWHomeViewController.h */,
+				5A3E8654217171430062B9C1 /* ATAWHomeViewController.m */,
+				5A3E8655217171430062B9C1 /* ATAWHomeViewController.xib */,
+				5A4EA751217E9BE500C4401F /* ATAWLoginViewController.h */,
+				5A4EA752217E9BE500C4401F /* ATAWLoginViewController.m */,
+			);
+			path = ATAW;
+			sourceTree = "<group>";
+		};
+		5A25CBD6218290F8003A2D4D /* PublishHomework */ = {
+			isa = PBXGroup;
+			children = (
+				5A25CBEE2186008F003A2D4D /* HomeworkList */,
+				5A25CBE821859E65003A2D4D /* ATAWPublishHomeworkHomeController.h */,
+				5A25CBE921859E65003A2D4D /* ATAWPublishHomeworkHomeController.m */,
+				5A25CBD32182129A003A2D4D /* ATAWPublishHomeworkController.h */,
+				5A25CBD42182129A003A2D4D /* ATAWPublishHomeworkController.m */,
+				5A25CBD721829171003A2D4D /* SegmentItem.h */,
+				5A25CBD821829171003A2D4D /* SegmentItem.m */,
+				5A25CBEB2185A451003A2D4D /* ATAWHomeworkLibraryController.h */,
+				5A25CBEC2185A451003A2D4D /* ATAWHomeworkLibraryController.m */,
+				5AE45B542188A79C0099A20C /* ATAWNewHomeworkByCameraController.h */,
+				5AE45B552188A79C0099A20C /* ATAWNewHomeworkByCameraController.m */,
+			);
+			path = PublishHomework;
+			sourceTree = "<group>";
+		};
+		5A25CBEE2186008F003A2D4D /* HomeworkList */ = {
+			isa = PBXGroup;
+			children = (
+				5A25CBDF2185997C003A2D4D /* ATAWMyHomeworkController.h */,
+				5A25CBE02185997C003A2D4D /* ATAWMyHomeworkController.m */,
+			);
+			path = HomeworkList;
+			sourceTree = "<group>";
+		};
+		76C0A00B0A913DE0BF368619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95C0FA755DB0A9B6C8B7F4DB /* libPods-ATAW.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEAA2CDFAF479CDBCA286A7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81000F3305B2FC65611A5F6C /* Pods-ATAW.debug.xcconfig */,
+				EFAE846DE316C3F8560F12E3 /* Pods-ATAW.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A171CAC216F797600995854 /* ATAW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A171CC3216F797800995854 /* Build configuration list for PBXNativeTarget "ATAW" */;
+			buildPhases = (
+				46CEFEEC5FE7E3EBEA16F062 /* [CP] Check Pods Manifest.lock */,
+				5A171CA9216F797600995854 /* Sources */,
+				5A171CAA216F797600995854 /* Frameworks */,
+				5A171CAB216F797600995854 /* Resources */,
+				8204FF26E7700FB81A02F321 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATAW;
+			productName = ATAW;
+			productReference = 5A171CAD216F797600995854 /* ATAW.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A171CA5216F797600995854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "蔡享";
+				TargetAttributes = {
+					5A171CAC216F797600995854 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A171CA8216F797600995854 /* Build configuration list for PBXProject "ATAW" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A171CA4216F797600995854;
+			productRefGroup = 5A171CAE216F797600995854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A171CAC216F797600995854 /* ATAW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A171CAB216F797600995854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3E8657217171430062B9C1 /* ATAWHomeViewController.xib in Resources */,
+				5A171CBD216F797800995854 /* LaunchScreen.storyboard in Resources */,
+				5A171CBA216F797800995854 /* Assets.xcassets in Resources */,
+				5A171CB8216F797600995854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46CEFEEC5FE7E3EBEA16F062 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATAW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8204FF26E7700FB81A02F321 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ATAW/Pods-ATAW-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ATAW/Pods-ATAW-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A171CA9216F797600995854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A25CBED2185A451003A2D4D /* ATAWHomeworkLibraryController.m in Sources */,
+				5A25CBE12185997C003A2D4D /* ATAWMyHomeworkController.m in Sources */,
+				5A3E8656217171430062B9C1 /* ATAWHomeViewController.m in Sources */,
+				5A25CBD921829171003A2D4D /* SegmentItem.m in Sources */,
+				5A171CB5216F797600995854 /* ViewController.m in Sources */,
+				5A25CBEA21859E65003A2D4D /* ATAWPublishHomeworkHomeController.m in Sources */,
+				5A171CC0216F797800995854 /* main.m in Sources */,
+				5A171CB2216F797600995854 /* AppDelegate.m in Sources */,
+				5AE45B562188A79C0099A20C /* ATAWNewHomeworkByCameraController.m in Sources */,
+				5A25CBD52182129A003A2D4D /* ATAWPublishHomeworkController.m in Sources */,
+				5A4EA753217E9BE500C4401F /* ATAWLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A171CB6216F797600995854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A171CB7216F797600995854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A171CBB216F797800995854 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A171CBC216F797800995854 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A171CC1216F797800995854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A171CC2216F797800995854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A171CC4216F797800995854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81000F3305B2FC65611A5F6C /* Pods-ATAW.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z2VKRW6T2;
+				INFOPLIST_FILE = ATAW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ledu.ATAW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A171CC5216F797800995854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAE846DE316C3F8560F12E3 /* Pods-ATAW.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z2VKRW6T2;
+				INFOPLIST_FILE = ATAW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ledu.ATAW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A171CA8216F797600995854 /* Build configuration list for PBXProject "ATAW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A171CC1216F797800995854 /* Debug */,
+				5A171CC2216F797800995854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A171CC3216F797800995854 /* Build configuration list for PBXNativeTarget "ATAW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A171CC4216F797800995854 /* Debug */,
+				5A171CC5216F797800995854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A171CA5216F797600995854 /* Project object */;
+}
